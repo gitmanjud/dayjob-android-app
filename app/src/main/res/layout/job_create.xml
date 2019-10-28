@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#778899">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#778899"
+    >
+    <TextView
+        android:id="@+id/jobCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Create a Job"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/jdescText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Job Description"/>
+
+    <EditText
+        android:id="@+id/jdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:singleLine="false" />
+    <TextView
+        android:id="@+id/fcountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Female Count"/>
+
+    <EditText
+        android:id="@+id/fcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/mcountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Male Count"/>
+    <EditText
+        android:id="@+id/mcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/salTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Salary"/>
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/startTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+
+        android:text="startTime(DD/MM/YYYY)"/>
+
+    <EditText
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:singleLine="true"
+        android:inputType="time"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/endTimeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Time"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="time"
+        android:singleLine="true"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/dateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="date"
+        android:singleLine="true"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/countryTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job location Country"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/stateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job location State"
+
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/distTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job location Distic"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/dist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:ems="10" />
+
+
+    <TextView
+        android:id="@+id/tqTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job location Tq"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/tq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/regionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job location Reqion"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:ems="10" />
+
+
+    <TextView
+        android:id="@+id/locDescTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job location dicription"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:id="@+id/locDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="text"
+        android:singleLine="false"
+        android:ems="10" />
+
+
+    <Button
+        android:id="@+id/jobSumbmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Submit" />
+</LinearLayout>
+</ScrollView>
